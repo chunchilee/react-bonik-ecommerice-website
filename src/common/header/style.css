@@ -1,5 +1,6 @@
 header {
-  height: 14vh;
+  width: 100%;
+  height: 19vh;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
@@ -136,7 +137,7 @@ header.container {
   /* display: none; */
   position: absolute;
   z-index: 10000;
-  top: 70px;
+  top: 150px;
   left: 0;
   width: 250px;
 }
@@ -161,7 +162,7 @@ header.container {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 782px) {
   /*.navbar ul {
     padding-top: 30px;
   } */
@@ -174,7 +175,7 @@ header.container {
     list-style: none;
     box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    left: -37px;
+    left: 0px;
     top: -91px;
     transition: all 0.5s ease-in-out;
     width: 44%;
@@ -208,7 +209,7 @@ header.container {
     z-index: 99999;
   }
   .close {
-    top: -88px;
-    left: -160px;
+    top: -80px;
+    left: -120px;
   }
 }

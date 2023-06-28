@@ -60,11 +60,11 @@
   border-radius: 5px;
   font-size: 20px;
 }
-.incCart,.desCart {
+.incCart,
+.desCart {
   background: none;
   border: 1px solid rgb(3 0 71 / 9%);
   cursor: pointer;
-
 }
 
 .cart-total h4 {
@@ -88,4 +88,16 @@
   font-size: 18px;
   margin-top: 30px;
   height: 130px;
+}
+
+@media (max-width: 910px) {
+  .cart-items .cart-total {
+    height: 160px;
+  }
+  .cart-total .d_flex {
+    flex-direction: column;
+  }
+  .cart-total h3{
+   margin: auto;
+  }
 }
